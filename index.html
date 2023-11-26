@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Bootstrap Site</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/nav.css" />
+    <script src="js/nav.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <script src="html/card.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <form class="d-flex mx-auto">
+          <button type="button" class="btn-login btn-primary rounded-pill">
+            Login
+          </button>
+          <button type="button" class="btn-register btn-primary rounded-pill">
+            Register
+          </button>
+        </form>
+
+        <div class="contact-details" style="color: white">
+          <span class="fw-bold text-uppercase">
+            <i class="bi bi-telephone-fill" style="color: white"></i>
+            Call Now: <span class="text-warning">9090909009</span>
+          </span>
+          <span class="fw-bold text-uppercase">
+            <i class="bi bi-telegram" style="color: white"></i>
+            Telegram:
+            <span class="text-warning">@telegram</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-section text-center bg-image">
+      <h1 class="anime-text">The Metaverse can change society</h1>
+      <div class="card-container d-grid ml-5">
+        <div class="row">
+          <div class="col-6 col-md-3 mx-auto">
+            <div class="card1 w-75 p-1">
+              <span>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                  data-mdb-ripple-init
+                >
+                  <i class="bi bi-rocket-takeoff-fill" style="color: white"></i>
+                </button>
+                Running days
+                <h5 class="card-title">6579</h5></span
+              >
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mx-auto">
+            <div class="card2 w-75 p-1">
+              <span>
+                Online Visitors
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                >
+                  <i class="bi bi-people-fill"></i>
+                </button>
+
+                <h5 class="card-title">79</h5></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3 mx-auto">
+            <div class="card3 w-75 p-1">
+              <span>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                  data-mdb-ripple-init
+                >
+                  <i class="bi bi-safe-fill" style="color: white"></i>
+                </button>
+                Total Investment
+                <h5 class="card-title">$00</h5></span
+              >
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="card4 w-75 p-1"
+              data-animation-init
+              data-animation-reset="true"
+              data-animation="slide-out-right"
+            >
+              <span>
+                Total Withdrawal
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                >
+                  <i class="bi bi-cash-coin" style="color: white"></i>
+                </button>
+
+                <h5 class="card-title">$00</h5></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3 mx-auto">
+            <div class="card5 w-75 p-1">
+              <span>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                  data-mdb-ripple-init
+                >
+                  <i class="bi bi-calendar-fill" style="color: white"></i>
+                </button>
+                Start Date
+                <h5 class="card-title">Feb 21</h5></span
+              >
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card6 w-75 p-1">
+              <span>
+                Visitors Online
+                <button
+                  type="button"
+                  class="btn btn-danger btn-floating rounded-pill"
+                  data-mdb-ripple-init
+                >
+                  <i class="bi bi-person-check-fill" style="color: white"></i>
+                </button>
+
+                <h5 class="card-title">2</h5></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="feature w-75 p-1 mx-auto">
+            <button
+              type="button"
+              class="btn-hover btn-danger btn-floating rounded-pill"
+              data-mdb-ripple-init
+            >
+              <i class="bi bi-cloud-arrow-down-fill" style="color: white"></i>
+            </button>
+
+            <h6 class="card-title">Best Server</h6>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="feature w-75 p-1 mx-auto">
+            <button
+              type="button"
+              class="btn-hover btn-danger btn-floating rounded-pill"
+              data-mdb-ripple-init
+            >
+              <i class="bi bi-tag-fill" style="color: white"></i>
+            </button>
+            <h6 class="card-title">Low Commission</h6>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="feature w-75 p-1 mx-auto">
+            <button
+              type="button"
+              class="btn-hover btn-danger btn-floating rounded-pill"
+              data-mdb-ripple-init
+            >
+              <i class="bi bi-gear-fill" style="color: white"></i>
+            </button>
+
+            <h6 class="card-title">100% sercure</h6>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="feature w-75 p-1 mx-auto">
+            <button
+              type="button"
+              class="btn-hover btn-danger btn-floating rounded-pill"
+              data-mdb-ripple-init
+            >
+              <i class="bi bi-infinity" style="color: white"></i>
+            </button>
+
+            <h6 class="card-title">Real time Monitoring</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main mx-auto my-auto">
+      <div class="circle">
+        <p
+          class="text-center"
+          style="font-size: 10px; transform: rotate(70deg)"
+        >
+          upto<span style="font-size: 14px; font-weight: 700"> 6.1%</span>PLAN 5
+        </p>
+      </div>
+      <div class="circle">
+        <p
+          class="text-center"
+          style="font-size: 10px; transform: rotate(70deg)"
+        >
+          upto<span style="font-size: 14px; font-weight: 700"> 0.2%</span>PLAN 2
+        </p>
+      </div>
+      <div class="second-main mx-auto my-auto">
+        <div class="circle-second">
+          <p
+            class="text-center"
+            style="font-size: 10px; transform: rotate(70deg)"
+          >
+            upto<span style="font-size: 14px; font-weight: 700"> 2.4%</span>PLAN
+            1
+          </p>
+        </div>
+        <div class="circle-second">
+          <p
+            class="text-center"
+            style="font-size: 10px; transform: rotate(70deg)"
+          >
+            upto<span style="font-size: 14px; font-weight: 700"> 8.3%</span>PLAN
+            6
+          </p>
+        </div>
+        <div class="third-main mx-auto my-auto">
+          <div class="circle-third">
+            <p
+              class="text-center"
+              style="font-size: 10px; transform: rotate(70deg)"
+            >
+              upto<span style="font-size: 14px; font-weight: 700"> 4.2%</span
+              >PLAN 7
+            </p>
+          </div>
+          <div class="circle-third">
+            <p
+              class="text-center"
+              style="font-size: 10px; transform: rotate(70deg)"
+            >
+              upto<span style="font-size: 14px; font-weight: 700"> 0.4%</span
+              >PLAN 8
+            </p>
+          </div>
+        </div>
+        <div class="circle-fourth mx-auto my-auto">
+          <p
+            class="text-center text-uppercase"
+            style="font-size: 16px; margin-top: 5px; margin-left: -50px"
+          >
+            Total
+          </p>
+          <p class="text-center" style="font-size: 30px; margin-top: -30px">
+            100M
+          </p>
+          <p
+            class="text-center text-uppercase"
+            style="font-size: 10px; margin-top: -30px; margin-left: 90px"
+          >
+            supply
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="row">
+        <div class="col-lg-6 mx-auto my-auto">
+          <img
+            src="https://images.indianexpress.com/2022/08/Untitled-design-2022-08-13T172027.830-1.jpg?w=414"
+            alt="wrapkit"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <div class="card-info" style="width: 18rem">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content. Some quick example text to build
+                on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content. Some quick example text to build
+                on the card title and make up the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                class="btn-read-more btn-primary rounded-pill"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <figure class="sphere" style="margin-left: 100px"></figure>
+    <figure class="sphere2" style="margin-left: 150px"></figure>
+    <figure class="sphere3" style="margin-left: 200px"></figure>
+    <figure class="sphere2" style="margin-left: 250px"></figure>
+    <figure class="sphere" style="margin-left: 750px"></figure>
+    <figure class="figure-image3" style="margin-left: 100px">
+      <img src="images/4958545.webp" class="figure-img img-fluid rounded" />
+    </figure>
+    <figure class="sphere2" style="margin-left: 500px"></figure>
+    <figure class="sphere" style="margin-left: 800px"></figure>
+    <figure class="sphere3" style="margin-left: 900px"></figure>
+    <figure class="figure-image1" style="margin-left: 300px">
+      <img src="images/4958545.webp" class="figure-img img-fluid rounded" />
+    </figure>
+    <figure class="figure-image2" style="margin-left: 800px">
+      <img src="images/4958545.webp" class="figure-img img-fluid rounded" />
+    </figure>
+  </body>
+</html>

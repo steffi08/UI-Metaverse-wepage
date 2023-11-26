@@ -1,0 +1,348 @@
+body {
+  background-color: #4a75a4;
+}
+
+.navbar {
+  position: fixed;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 35px;
+  font-family: Germania;
+  cursor: pointer;
+}
+
+.icon-bar {
+  background-color: #000;
+}
+
+.nav {
+  font-family: Lithos Pro;
+  color: #fff;
+  padding: 10px 20px;
+}
+.btn-login,
+.btn-read-more {
+  background: linear-gradient(#9198e5, #1828db);
+  text-align: center;
+  width: 5rem;
+  margin-right: 10px;
+  border-color: #9198e5;
+}
+.btn-read-more {
+  width: 9rem;
+}
+.btn-register {
+  background: linear-gradient(#eb704b, #dbd818);
+  text-align: center;
+  width: 7rem;
+  border-color: #eb704b;
+}
+.hero-section {
+  text-align: center;
+  position: relative;
+  top: 65px;
+  color: white;
+  justify-content: center;
+  background: url(https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.anime-text {
+  position: relative;
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: bold;
+  animation: left-to-right 5s infinite ease-in-out;
+}
+@keyframes left-to-right {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.card-container {
+  position: relative;
+  top: 30px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  margin-bottom: 30px;
+  background: linear-gradient(-45deg, #db18c1, #de91e5, #462be0);
+  border-radius: 10px;
+  animation: fadeInUp 5s infinite ease-in-out;
+}
+
+.card3 {
+  margin-left: -90px;
+}
+.card4 {
+  margin-left: -250px;
+}
+.card5 {
+  margin-left: -20px;
+}
+.card6 {
+  margin-left: -300px;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+.feature-container {
+  position: relative;
+  top: 60px;
+  margin: 5px 0 0 0;
+  background-color: #000;
+  opacity: 0.7;
+  color: white;
+}
+.feature {
+  transition: all 0.5s ease-in-out;
+}
+.feature:hover {
+  transform: scale(1.5);
+}
+.main {
+  position: relative;
+  top: 65px;
+  border: 5px solid #2d48d1;
+  border-radius: 350px 350px 0 0;
+  width: 700px;
+  height: 350px;
+  color: white;
+}
+.circle {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: calc(50% + 150px);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #db18c1, #de91e5, #462be0);
+}
+@keyframes orbit1 {
+  from {
+    transform: rotate(0deg) translateX(350px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg) translateX(350px) rotate(90deg);
+  }
+}
+
+.circle:nth-child(1) {
+  animation: orbit1 10s linear infinite;
+}
+
+.circle:nth-child(2) {
+  animation: orbit1 15s linear infinite;
+}
+.second-main {
+  position: relative;
+  top: 95px;
+  border: 5px solid #2d48d1;
+  border-radius: 250px 250px 0 0;
+  width: 500px;
+  height: 250px;
+}
+.circle-second {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: calc(50% + 100px);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #db18c1, #de91e5, #462be0);
+}
+
+.circle-second:nth-child(1) {
+  animation: orbit2 10s linear infinite;
+}
+
+.circle-second:nth-child(2) {
+  animation: orbit2 20s linear infinite;
+}
+@keyframes orbit2 {
+  from {
+    transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg) translateX(250px) rotate(90deg);
+  }
+}
+.third-main {
+  position: relative;
+  top: 95px;
+  border: 5px solid #2d48d1;
+  border-radius: 150px 150px 0 0;
+  width: 300px;
+  height: 150px;
+}
+.circle-third {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: calc(50% + 50px);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #db18c1, #de91e5, #462be0);
+}
+
+.circle-third:nth-child(1) {
+  animation: orbit3 15s linear infinite;
+}
+
+.circle-third:nth-child(2) {
+  animation: orbit3 5s linear infinite;
+}
+@keyframes orbit3 {
+  from {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg) translateX(150px) rotate(90deg);
+  }
+}
+
+.circle-fourth {
+  position: relative;
+  top: 5px;
+  border: 5px solid #2d48d1;
+  border-radius: 100px 100px 0 0;
+  width: 200px;
+  height: 90px;
+  background-color: #000;
+  opacity: 0.7;
+  color: #fff;
+}
+.about-section {
+  position: relative;
+  top: 40px;
+  margin: 5px 0 0 0;
+  background: linear-gradient(45deg, #db18c1, #de91e5, #462be0);
+  color: white;
+}
+.sphere,
+.sphere2,
+.sphere3 {
+  display: block;
+  background: black;
+  border-radius: 100%;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  margin-left: 30px;
+  background: radial-gradient(circle at 10px 10px, #4a75a4, #000);
+}
+.sphere {
+  height: 30px;
+  width: 30px;
+  animation: fadeUp 5s infinite;
+}
+.sphere2 {
+  height: 60px;
+  width: 60px;
+  animation: fadeUp 15s infinite;
+}
+.sphere3 {
+  height: 15px;
+  width: 15px;
+  animation: fadeUp 25s infinite;
+}
+
+.figure-image1,
+.figure-image2,
+.figure-image3 {
+  z-index: 1;
+  position: relative;
+  margin: 0;
+}
+
+.figure-image1 {
+  height: 35px;
+  width: 35px;
+  animation: fadeUp 10s infinite;
+}
+.figure-image2 {
+  height: 60px;
+  width: 60px;
+  animation: fadeUp 15s infinite;
+}
+.figure-image3 {
+  height: 100px;
+  width: 100px;
+  animation: fadeUp 20s infinite;
+}
+@keyframes fadeUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-90rem);
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .btn-login {
+    font-size: 10px;
+    width: auto;
+    margin-left: -20px;
+  }
+  .btn-register {
+    font-size: 10px;
+    width: auto;
+  }
+  .contact-details {
+    font-size: 6px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    height: 50px;
+    font-size: 10px;
+  }
+  .card1 {
+    margin-left: -30px;
+  }
+  .card2 {
+    margin-left: 25px;
+  }
+  .card3 {
+    margin-left: 0px;
+  }
+  .card4 {
+    margin-left: 0px;
+  }
+  .card5 {
+    margin-left: 15px;
+  }
+  .card6 {
+    margin-left: -10px;
+  }
+  .card-title {
+    font-size: 10px;
+  }
+}
